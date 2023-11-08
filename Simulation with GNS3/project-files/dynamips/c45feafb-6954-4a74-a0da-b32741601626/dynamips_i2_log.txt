@@ -1,0 +1,33 @@
+Feb 06 17:24:05.278 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 06 17:24:05.278 HYPERVISOR: Started on IP = localhost, TCP port = 1253.
+Feb 06 17:24:05.787 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 17:24:05.788 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips 
+Feb 06 17:24:05.788 GENERAL: working_dir=E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips
+Feb 06 17:24:05.788 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\c45feafb-6954-4a74-a0da-b32741601626 
+Feb 06 17:24:05.789 GENERAL: working_dir=E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\c45feafb-6954-4a74-a0da-b32741601626
+Feb 06 17:24:05.789 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Feb 06 17:24:05.794 VM: VM R2 created.
+Feb 06 17:24:05.794 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5005 
+Feb 06 17:24:05.798 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Feb 06 17:24:05.799 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Feb 06 17:24:05.799 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Feb 06 17:24:05.800 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 17:24:05.800 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60c09aa0 
+Feb 06 17:24:05.802 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/amirh/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Feb 06 17:24:05.802 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.0d5c.0000 
+Feb 06 17:24:05.803 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Feb 06 17:24:07.632 HYPERVISOR: exec_cmd: nio create_udp udp-9690d896-a5bb-43c1-8ca3-655e6a31719b 10010 127.0.0.1 10011 
+Feb 06 17:24:07.887 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-9690d896-a5bb-43c1-8ca3-655e6a31719b 
+Feb 06 17:24:07.888 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 17:24:07.929 HYPERVISOR: exec_cmd: nio create_udp udp-218efca2-cef6-4204-9770-4241f8187a3c 10014 127.0.0.1 10015 
+Feb 06 17:24:07.932 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-218efca2-cef6-4204-9770-4241f8187a3c 
+Feb 06 17:24:07.933 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 17:25:57.710 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Feb 06 17:25:57.720 HYPERVISOR: exec_cmd: vm set_ghost_file R2 E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Feb 06 17:25:57.721 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 17:25:57.732 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Feb 06 17:25:57.733 HYPERVISOR: exec_cmd: vm start R2 
+Feb 06 17:26:28.092 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 06 17:26:28.098 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 06 17:42:28.508 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 06 17:42:28.515 HYPERVISOR: exec_cmd: vm extract_config R2 

@@ -1,0 +1,30 @@
+Feb 06 17:24:04.730 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 06 17:24:04.732 HYPERVISOR: Started on IP = localhost, TCP port = 1248.
+Feb 06 17:24:05.195 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 17:24:05.195 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips 
+Feb 06 17:24:05.202 GENERAL: working_dir=E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips
+Feb 06 17:24:05.202 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\5212b925-770b-4894-aeda-77cb4ff5c048 
+Feb 06 17:24:05.202 GENERAL: working_dir=E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\5212b925-770b-4894-aeda-77cb4ff5c048
+Feb 06 17:24:05.203 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Feb 06 17:24:05.210 VM: VM R1 created.
+Feb 06 17:24:05.211 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5004 
+Feb 06 17:24:05.211 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Feb 06 17:24:05.211 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 06 17:24:05.211 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Feb 06 17:24:05.212 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 17:24:05.212 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+Feb 06 17:24:05.213 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/amirh/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Feb 06 17:24:05.214 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.203c.0000 
+Feb 06 17:24:05.214 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Feb 06 17:24:07.941 HYPERVISOR: exec_cmd: nio create_udp udp-6cd80ac9-b3f4-4733-b250-3012bb148e69 10016 127.0.0.1 10017 
+Feb 06 17:24:08.182 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-6cd80ac9-b3f4-4733-b250-3012bb148e69 
+Feb 06 17:24:08.184 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 17:25:57.702 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Feb 06 17:25:57.710 HYPERVISOR: exec_cmd: vm set_ghost_file R1 E:\Masters@UT\Fall 2022\Advanced Computer Networks\Lab\Lab 2\GNS3\Lab2_ACN\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Feb 06 17:25:57.710 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 17:25:57.720 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Feb 06 17:25:57.720 HYPERVISOR: exec_cmd: vm start R1 
+Feb 06 17:26:28.046 HYPERVISOR: exec_cmd: vm extract_config R1 
+Feb 06 17:26:28.052 HYPERVISOR: exec_cmd: vm extract_config R1 
+Feb 06 17:38:28.398 HYPERVISOR: exec_cmd: vm extract_config R1 
+Feb 06 17:38:28.412 HYPERVISOR: exec_cmd: vm extract_config R1 
